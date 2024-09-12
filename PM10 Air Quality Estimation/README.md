@@ -28,3 +28,38 @@ This project aims to address this gap by building a machine learning model that 
 
 ## Evaluation Metric
 The model performance is evaluated using Root Mean Squared Error (RMSE), which measures the average magnitude of the error between predicted and actual PM10 levels. RMSE is used to quantify how well the model's predictions align with the true values, with lower values indicating better accuracy and model performance.
+
+## PM10 Air Quality Estimation Project
+
+This project focuses on predicting PM10 air quality levels using a machine learning approach. It involves several steps, from data preprocessing to model evaluation, with the goal of building a reliable predictive model. Below is an overview of the key stages of the project:
+
+` Dependent Variable : PM10 `
+
+### 1. Data Preprocessing
+The dataset contains several environmental and pollutant-related features such as PM2.5, SO2, NO2, and meteorological variables. To prepare the data for modeling, the following steps were taken:
+- **Handling Missing Values:** Missing data points were imputed using suitable strategies based on the type of data (e.g., mean imputation for continuous variables).
+- **Handling Categorical Variables:** Categorical features such as wind direction (wd) were converted into numerical values using encoding techniques (e.g., one-hot encoding), ensuring they are suitable for input into machine learning algorithms.
+
+### 2. Data Visualization
+Exploratory data analysis (EDA) was conducted to understand the underlying trends and relationships in the dataset. Visualizations such as scatter plots, histograms, and correlation heatmaps were used to:
+- Identify correlations between PM10 levels and other variables (e.g., temperature, wind speed, and other pollutants).
+- Spot any potential outliers or anomalies in the data.
+
+### 3. Model Building
+Several machine learning models were built and trained to estimate PM10 levels. These models include:
+- **Linear Regression**
+- **Random Forest Regressor**
+- **Decision Tree Regressor**
+- **Gradient Boosting Regressor**
+- **XGBoost**
+
+Each model was trained on the preprocessed data, and hyperparameters were tuned to improve performance. The models were then evaluated based on their ability to accurately predict PM10 levels.
+
+### 4. Evaluation and Comparison
+The models were evaluated using **Root Mean Squared Error (RMSE)**, which provides insight into the average error of predictions. A comparison of the models was conducted to identify which algorithm performs best in terms of both accuracy and generalization.
+
+### 5. Result Interpretation
+The final model's predictions were interpreted by comparing the predicted PM10 levels with the actual values in the test dataset. Through this comparison, we assessed the model's reliability in estimating air quality, identifying areas where predictions could be improved or where more data might be needed.
+
+---
+
