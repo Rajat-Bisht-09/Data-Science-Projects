@@ -61,5 +61,6 @@ The models were evaluated using **Root Mean Squared Error (RMSE)**, which provid
 ### 5. Result Interpretation
 The final model's predictions were interpreted by comparing the predicted PM10 levels with the actual values in the test dataset. Through this comparison, we assessed the model's reliability in estimating air quality, identifying areas where predictions could be improved or where more data might be needed.
 
----
+## Appendix
 
+For further information and detailed code implementation, please refer to the project notebook file included in this repository.
