@@ -54,9 +54,8 @@ The dataset used in this project contains various features related to customer b
 ### 3. Data Preprocessing
 Several steps were taken to clean and prepare the dataset for modeling:
 - **Handling Missing Values**: Missing demographic and transaction data were handled using imputation techniques.
+- **Handling Inconsistent Values**: Certain variables contain short-forms and repetitive words, replaced them with proper form.
 - **Encoding Categorical Variables**: Categorical features like gender and location were transformed into numerical values using encoding techniques such as one-hot encoding.
-- **Feature Scaling**: Continuous variables like transaction amounts and time spent on the platform were scaled using normalization or standardization techniques to ensure consistent input to the model.
-- **Feature Engineering**: New features such as customer lifetime value (CLV) and engagement score were created to provide more predictive power to the model.
 
 ### 4. Data Exploration and Visualization
 Exploratory Data Analysis (EDA) was performed to understand the distribution of features and uncover insights about customer behavior:
@@ -69,16 +68,13 @@ Several machine learning models were developed to predict customer churn:
 - **Logistic Regression**
 - **Decision Tree Classifier**
 - **Random Forest Classifier**
-- **XGBoost Classifier**
-- **Support Vector Classifier (SVC)**
+- **Gradient Boosting Classifier**
+- **AdaBoost**
 
 Each model was trained on the processed data, and hyperparameters were tuned using cross-validation to enhance performance.
 
 ### 6. Evaluation Metrics
 The performance of the models was evaluated using the following metrics:
-- **Accuracy**: Overall correctness of predictions.
-- **Precision and Recall**: To assess the balance between correctly identifying churners and minimizing false positives.
-- **F1-Score**: A harmonic mean of precision and recall, useful in cases of imbalanced data.
 - **ROC-AUC Curve**: To evaluate the model's ability to distinguish between churned and non-churned customers.
 - **Confusion Matrix**: To visualize true positives, false positives, true negatives, and false negatives.
 
@@ -89,13 +85,6 @@ The models were compared based on their performance metrics, and the best-perfor
 The project successfully predicted customer churn with a high degree of accuracy. The findings provide valuable insights into customer behavior, helping businesses identify at-risk customers. Future work includes:
 - Improving the model by incorporating more advanced techniques such as deep learning.
 - Deploying the model into a production environment to make real-time predictions.
-- Integrating customer feedback and external factors such as market trends for more comprehensive churn prediction.
 
 ### 9. For Further Information
 For more details and code implementation, please refer to the project notebook included in this repository.
-
----
-
-This outline covers every aspect of your project and provides a clear and detailed explanation for potential viewers on GitHub.
-
-
