@@ -20,3 +20,19 @@ The dataset consists of ≈ 1.6M rows and 11 columns. The attributes are:
 | `age ` | age of the user    |
 | `trip_duration `| the duration of a trip (in minutes)      |
 
+The following questions need to be explored through data visualization:
+- What are the busiest hours for bike trips?
+- Which stations have the highest number of trip starts and stops?
+- What is the distribution of trip durations?
+- Is there a difference in trip duration between different user types?
+- How does age affect trip duration?
+- What are the gender distributions among bike users?
+- What is the average trip duration by gender?
+- How does the trip count vary across different days of the week?
+- Which stations are most popular for bike trips for different user types (e.g., Subscriber vs. Customer)?
+- Are there certain bikes that are used more frequently than others?
+- Does trip duration vary by bike ID?
+- Is there a seasonal or time-of-day pattern in trip starts?
+- What is the distribution of trip durations by user age?
+- How does the number of trips vary by station over time?
+- Are there differences in trip duration between male, female, and other gender users?
