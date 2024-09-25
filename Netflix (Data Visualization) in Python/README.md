@@ -60,3 +60,9 @@ This tabular dataset consists of listings of all the movies and tv shows availab
   9. `Anupam Kher` is the most successful actor in the Netflix, having total tally of 39 Movies so far.
   10. The month to release TV Shows are `July` and `December`.
   11. The month to release Movies are `January` and `July`.
+
+- **Recommendations**
+    1. Netflix should increase the TV Shows to engage the audience towards it's platform and increase the viewrship of TV audience.
+    2. After year 2020, there is dip in content of Netflix, which may affect the company profits, it should consider partnership with other production houses to generate new content.
+    3. The company should focus more in `Documentaries`, `International Movies`, `Romance`, `Dramas`, `Comedy` genre type of content to attract new audience and retain loyal consumers.
+    4. `United States` has the most content available in Netflix, it should focus on the contents of other countries also, to grab attention of other countries audience.
