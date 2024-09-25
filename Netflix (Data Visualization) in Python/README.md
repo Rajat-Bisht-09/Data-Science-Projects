@@ -39,3 +39,24 @@ This tabular dataset consists of listings of all the movies and tv shows availab
 - Is there a pattern in the release year of content across different genres?
 - The best month to release the Tv-show
 - The best month to release the Movie
+
+### Insights and Recommendations
+
+- **Insights**
+
+  1. The content of Movies Vs TV Shows in Netflix Platform is more. The count of movies totals 6126 in number and TV Shows of 2664 in number. Also the movie contributes upto 69.7% and TV shows upto 30.3%.<br>
+  2. Thecontent of Netflix started growing from 2015, and has been rising since then, but there is some downfall in recent years.<br>
+  3. United States tops the chart in producing most content in Netflix with 3680 movies and TV Shows, next is India, UK, Canada and so on.<br>
+  4. The highest content in Netflix is `TV-MA` > `TV-14` > `TV-PG`.<br>
+  5. The average duration of Movies is `110.0` minutes, and the highest count of movie minutes is `90.0` minutes.<br> And most of the TV Shows have only `1` season.
+  6. `Rajiv Chilaka` has the most content in Netflix in terms of *Director* Category. With a total of 22 Movies and TV Shows altogether.<br>
+  7. The most common genres of the Netflix are - 
+  - `International Movies`
+  - `Comedies`
+  - `Documentaries`
+  - `Romance`
+  - `Dramas`
+  8. The content in Netflix shoots ups in the years between 2019-2020.
+  9. `Anupam Kher` is the most successful actor in the Netflix, having total tally of 39 Movies so far.
+  10. The month to release TV Shows are `July` and `December`.
+  11. The month to release Movies are `January` and `July`.
