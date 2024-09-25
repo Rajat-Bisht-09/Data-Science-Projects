@@ -66,3 +66,6 @@ This tabular dataset consists of listings of all the movies and tv shows availab
     2. After year 2020, there is dip in content of Netflix, which may affect the company profits, it should consider partnership with other production houses to generate new content.
     3. The company should focus more in `Documentaries`, `International Movies`, `Romance`, `Dramas`, `Comedy` genre type of content to attract new audience and retain loyal consumers.
     4. `United States` has the most content available in Netflix, it should focus on the contents of other countries also, to grab attention of other countries audience.
+
+### For Further Information
+For more details and code implementation, please refer to the project notebook included in this repository.
